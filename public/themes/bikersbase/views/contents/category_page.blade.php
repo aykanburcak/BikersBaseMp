@@ -1,5 +1,5 @@
 <section>
-  <div class="container full-width">
+  <div class="container">
       <div class="row">
         @if($products->count())
           <div class="col-sm-2 bg-light">

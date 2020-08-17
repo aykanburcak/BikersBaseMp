@@ -43,7 +43,7 @@
           <div class="seller-info space20">
             <div class="text-muted small">@lang('theme.sold_by')</div>
 
-            <img src="{{ get_storage_file_url(optional($shop->image)->path, 'tiny') }}" class="seller-info-logo img-sm img-circle" alt="{{ trans('theme.logo') }}">
+            <img src="{{ get_storage_file_url(optional($shop->image)->path, 'tiny') }}" class="seller-info-logo img-sm" alt="{{ trans('theme.logo') }}">
 
             <a href="{{ route('show.store', $shop->slug) }}" class="seller-info-name">
               {{ $shop->name }}

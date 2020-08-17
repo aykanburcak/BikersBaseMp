@@ -15,7 +15,7 @@
           <td class="mailbox-name" width="15%">
             @if($message->shop)
               <a href="{{ route('show.store', $message->shop->slug) }}">
-                  <img src="{{ get_storage_file_url(optional($message->shop->image)->path, 'thumbnail') }}" class="seller-info-logo img-circle" alt="{{ trans('theme.logo') }}">
+                  <img src="{{ get_storage_file_url(optional($message->shop->image)->path, 'thumbnail') }}" class="seller-info-logo" alt="{{ trans('theme.logo') }}">
                   {!! $message->shop->getQualifiedName() !!}
               </a>
             @else

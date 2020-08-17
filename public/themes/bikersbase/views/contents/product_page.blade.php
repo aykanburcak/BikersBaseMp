@@ -133,7 +133,7 @@
 				            	</a>
 				            </div>
 
-							<img src="{{ get_storage_file_url(optional($item->shop->image)->path, 'thumbnail') }}" class="seller-info-logo img-sm img-circle" alt="{{ trans('theme.logo') }}">
+							<img src="{{ get_storage_file_url(optional($item->shop->image)->path, 'thumbnail') }}" class="seller-info-logo img-sm" alt="{{ trans('theme.logo') }}">
 
 					        <a href="javascript:void(0)" data-toggle="modal" data-target="#shopReviewsModal" class="seller-info-name">
 				            	{!! $item->shop->getQualifiedName() !!}
